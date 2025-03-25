@@ -37,14 +37,9 @@ npm install
 3. Run the server:
 
 ```bash
-node server.js
+npm start
 ```
-4. Access the platform:
-Open your browser and go to:
 
-```arduino
-http://localhost:3000
-```
 📂 Project Structure 📂
 ```csharp
 📁 KinoVibes/
