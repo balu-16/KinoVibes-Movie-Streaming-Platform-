@@ -14,13 +14,15 @@ KinoVibes is a powerful movie streaming and downloading platform that allows use
 
 ---
 
-## 🛠 Getting Started 🛠
+## 🛠 Getting Started 🛠  
 
-### ⚡ Pre-requisites
-
-* **Node.js** (Latest version recommended)
-* **NPM** (Comes with Node.js)
-* **MongoDB** (If you plan to integrate a database)
+### ⚡ Pre-requisites  
+* **Node.js** (Latest version recommended)  
+* **NPM** (Comes with Node.js)  
+* **MongoDB** (If you plan to integrate a database)  
+  * Default login credentials:  
+    * **Username**: `admin`  
+    * **Password**: `password123`  
 
 ### 📥 Installation
 
