@@ -59,7 +59,6 @@ http://localhost:3000
  ┣ 📄 package.json        # Project dependencies
  ┣ 📄 package-lock.json   # Dependency lock file
  ┣ 📄 README.md           # Project documentation
- ┗ 📜 .gitignore          # Ignoring node_modules
 ```
  
 ## 🎮 How to Use 🎮
