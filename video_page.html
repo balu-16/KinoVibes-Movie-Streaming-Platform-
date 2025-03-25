@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoVibes - Watch Movie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .video-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            background: #000;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .video-wrapper video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .movie-info {
+            padding: 20px;
+            background: #2a2a2a;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .back-button {
+            margin-bottom: 20px;
+            background-color: #343a40;
+            border: none;
+        }
+        .back-button:hover {
+            background-color: #23272b;
+        }
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <img src="img/logo.png" alt="KinoVibes Logo" class="nav-logo">
+            <div class="text-center">
+                <a class="navbar-brand" href="index.html">KinoVibes</a>
+                <span class="navbar-subtitle">Explore | Stream | Vibe</span>
+            </div>
+            <img src="img/logo.png" alt="KinoVibes Logo" class="nav-logo">
+        </div>
+    </nav>
+
+    <div class="container video-container">
+        <button class="btn btn-secondary back-button" onclick="window.history.back()">← Back to Movies</button>
+        
+        <div class="movie-info">
+            <h2 id="movieTitle">Loading...</h2>
+            <p id="movieDescription">Loading...</p>
+        </div>
+
+        <div class="video-wrapper">
+            <div class="loading" id="loadingIndicator">Loading video...</div>
+            <video id="videoPlayer" controls crossorigin="anonymous">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        // Get movie data from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieName = decodeURIComponent(urlParams.get('movie'));
+
+        // Import movies database
+        fetch('movies_db.json')
+            .then(response => response.json())
+            .then(movies => {
+                const movie = movies[movieName.toLowerCase()];
+                if (movie) {
+                    document.title = `KinoVibes - ${movie.title}`;
+                    document.getElementById('movieTitle').textContent = movie.title;
+                    document.getElementById('movieDescription').textContent = movie.description;
+                    
+                    const videoPlayer = document.getElementById('videoPlayer');
+                    const loadingIndicator = document.getElementById('loadingIndicator');
+                    
+                    // Set up video player
+                    videoPlayer.src = movie.videoUrl;
+                    
+                    // Hide loading indicator when video can play
+                    videoPlayer.addEventListener('canplay', () => {
+                        loadingIndicator.style.display = 'none';
+                    });
+
+                    // Error handling
+                    videoPlayer.addEventListener('error', () => {
+                        loadingIndicator.textContent = 'Error loading video. Please try again later.';
+                    });
+                } else {
+                    document.getElementById('movieTitle').textContent = "Movie Not Found";
+                    document.getElementById('movieDescription').textContent = "The requested movie could not be found.";
+                    document.getElementById('loadingIndicator').textContent = "Video unavailable";
+                }
+            });
+    </script>
+    <!-- Database JS -->
+    <script src="static/js/db.js"></script>
+    <!-- User Authentication JS -->
+    <script src="static/js/user-auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

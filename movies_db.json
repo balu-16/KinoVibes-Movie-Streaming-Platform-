@@ -1,0 +1,242 @@
+{
+    "devara": {
+        "title": "Devara: Part 1",
+        "description": "A man fights against the system to protect his village from exploitation.",
+        "videoUrl": "https://drive.google.com/file/d/1uwImvHrSred8jJVS7XvTGzv20-5DuF6l/preview",
+        "category": "action",
+        "year": "2024",
+        "genres": ["Action", "Drama"],
+        "duration": "2h 45min",
+        "rating": "8.5/10"
+    },
+    "john wick 1": {
+        "title": "John Wick",
+        "description": "An ex-hit-man comes out of retirement to track down the gangsters that took everything from him.",
+        "videoUrl": "https://drive.google.com/file/d/1Es88WxQ_kIIrNYqFoXF1mSgCNudPiKr2/preview",
+        "category": "action",
+        "year": "2014",
+        "genres": ["Action", "Thriller"],
+        "duration": "1h 41min",
+        "rating": "7.4/10"
+    },
+    "john wick 2": {
+        "title": "John Wick: Chapter 2",
+        "description": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
+        "videoUrl": "https://drive.google.com/file/d/1vDNLxvT15kJ76_JLT-_fXaslZMZrE_B-/preview",
+        "category": "action",
+        "year": "2017",
+        "genres": ["Action", "Thriller"],
+        "duration": "2h 2min",
+        "rating": "7.5/10"
+    },
+    "john wick 3": {
+        "title": "John Wick: Chapter 3 - Parabellum",
+        "description": "John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head.",
+        "videoUrl": "https://drive.google.com/file/d/12rfOpXkBJdmdDAj2-oZls0bdZ6GYLr7M/preview",
+        "category": "action",
+        "year": "2019",
+        "genres": ["Action", "Thriller"],
+        "duration": "2h 11min",
+        "rating": "7.4/10"
+    },
+    "john wick 4": {
+        "title": "John Wick: Chapter 4",
+        "description": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe.",
+        "videoUrl": "path/to/john-wick-4.mp4",
+        "category": "action",
+        "year": "2023",
+        "genres": ["Action", "Thriller"],
+        "duration": "2h 49min",
+        "rating": "7.8/10"
+    },
+    "guntur kaaram": {
+        "title": "Guntur Kaaram",
+        "description": "A powerful action drama set in the backdrop of Guntur.",
+        "videoUrl": "https://drive.google.com/file/d/1cC8I5gOcKC6PjkBXsLKBo8enSn0JHxcm/preview",
+        "category": "action",
+        "year": "2024",
+        "genres": ["Action", "Drama"],
+        "duration": "2h 45min",
+        "rating": "6.5/10"
+    },
+    "pushpa": {
+        "title": "Pushpa: The Rise",
+        "description": "A laborer rises through the ranks of a red sandalwood smuggling syndicate, making some powerful enemies in the process.",
+        "videoUrl": "https://drive.google.com/file/d/1NOVlYJlQA5WVEk-nickulRIFecHzjq4Q/preview",
+        "category": "crime",
+        "year": "2021",
+        "genres": ["Action", "Crime", "Drama"],
+        "duration": "2h 59min",
+        "rating": "7.6/10"
+    },
+    "pushpa 2": {
+        "title": "Pushpa 2: The Rule",
+        "description": "The continuation of Pushpa Raj's story as he deals with new challenges and enemies.",
+        "videoUrl": "path/to/pushpa-2.mp4",
+        "category": "crime",
+        "year": "2024",
+        "genres": ["Action", "Crime", "Drama"],
+        "duration": "3h",
+        "rating": "Coming Soon"
+    },
+    "jailer": {
+        "title": "Jailer",
+        "description": "A retired jailer goes on a mission to apprehend the mastermind behind a robbery attempt that leads to the death of his cop son.",
+        "videoUrl": "https://drive.google.com/file/d/1qh3kqiwHEhCKLhKrb06WpuGs5Lpygvnm/preview",
+        "category": "crime",
+        "year": "2023",
+        "genres": ["Action", "Crime", "Drama"],
+        "duration": "2h 48min",
+        "rating": "7.1/10"
+    },
+    "leo": {
+        "title": "Leo",
+        "description": "A mild-mannered man becomes a local hero through an act of violence, which sets off a chain of events that leads to bloody revenge.",
+        "videoUrl": "https://drive.google.com/file/d/1F0d3AjRDnYH9RxtE--XBGFlDdUC4GAYI/preview",
+        "category": "adventure",
+        "year": "2023",
+        "genres": ["Action", "Adventure", "Crime"],
+        "duration": "2h 44min",
+        "rating": "7.2/10"
+    },
+    "salaar": {
+        "title": "Salaar: Part 1 - Cease Fire",
+        "description": "A gang leader tries to keep a promise made to his dying friend and takes on the other gang members.",
+        "videoUrl": "https://drive.google.com/file/d/1m9_na1rlWYuzl3uki0sMJ-hks3Lr3LqA/preview",
+        "category": "action",
+        "year": "2023",
+        "genres": ["Action", "Drama", "Thriller"],
+        "duration": "2h 55min",
+        "rating": "7.0/10"
+    },
+    "brahmastra": {
+        "title": "Brahmastra: Part One - Shiva",
+        "description": "A young man on the brink of falling in love gets his world turned upside down when he discovers he has the power to control fire and a connection to a secret society of guardians.",
+        "videoUrl": "path/to/brahmastra.mp4",
+        "category": "adventure",
+        "year": "2022",
+        "genres": ["Action", "Adventure", "Fantasy"],
+        "duration": "2h 47min",
+        "rating": "5.6/10"
+    },
+    "kgf 1": {
+        "title": "KGF: Chapter 1",
+        "description": "In the 1970s, a gangster embarks on a quest to acquire power and wealth as the kingpin of the Kolar Gold Fields.",
+        "videoUrl": "https://drive.google.com/file/d/1l_K61PyvraN4XUs2j3OFINTH_aVBYHmP/preview",
+        "category": "action",
+        "year": "2018",
+        "genres": ["Action", "Drama"],
+        "duration": "2h 36min",
+        "rating": "8.2/10"
+    },
+    "mad": {
+        "title": "Mad",
+        "description": "A comedy about a group of friends who get into hilarious situations.",
+        "videoUrl": "https://drive.google.com/file/d/1jbwM1nYW1kUwc5Es3q2vlcgxHMbcOO3F/preview",
+        "category": "comedy",
+        "year": "2023",
+        "genres": ["Comedy"],
+        "duration": "2h 15min",
+        "rating": "6.8/10"
+    },
+    "kgf 2": {
+        "title": "KGF: Chapter 2",
+        "description": "Rocky takes control of the Kolar Gold Fields and his newfound power leads the government to launch a manhunt for him.",
+        "videoUrl": "https://drive.google.com/file/d/1vFe5ZuT3czhVHANtl88YBRV0aL20isAD/preview",
+        "category": "action",
+        "year": "2022",
+        "genres": ["Action", "Crime", "Drama"],
+        "duration": "2h 48min",
+        "rating": "8.3/10"
+    },
+    "iron man 1": {
+        "title": "Iron Man",
+        "description": "When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.",
+        "videoUrl": "path/to/ironman1.mp4",
+        "category": "marvel",
+        "year": "2008",
+        "genres": ["Action", "Sci-Fi"],
+        "duration": "2h 6min",
+        "rating": "7.9/10"
+    },
+    "iron man 2": {
+        "title": "Iron Man 2",
+        "description": "Tony Stark is under pressure from various sources, including the government, to share his technology with the world. He must find a way to fight them while also tackling his other enemies.",
+        "videoUrl": "path/to/ironman2.mp4",
+        "category": "marvel",
+        "year": "2010",
+        "genres": ["Action", "Sci-Fi"],
+        "duration": "2h 4min",
+        "rating": "7.0/10"
+    },
+    "iron man 3": {
+        "title": "Iron Man 3",
+        "description": "Tony Stark encounters a formidable foe called the Mandarin. After failing to defeat his enemy, Tony embarks on a journey of self-discovery as he fights against the powerful Mandarin.",
+        "videoUrl": "path/to/ironman3.mp4",
+        "category": "marvel",
+        "year": "2013",
+        "genres": ["Action", "Sci-Fi"],
+        "duration": "2h 10min",
+        "rating": "7.1/10"
+    },
+    "avengers endgame": {
+        "title": "Avengers: Endgame",
+        "description": "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
+        "videoUrl": "path/to/endgame.mp4",
+        "category": "marvel",
+        "year": "2019",
+        "genres": ["Action", "Sci-Fi"],
+        "duration": "3h 1min",
+        "rating": "8.4/10"
+    },
+    "black adam": {
+        "title": "Black Adam",
+        "description": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods, Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+        "videoUrl": "path/to/blackadam.mp4",
+        "category": "dc",
+        "year": "2022",
+        "genres": ["Action", "Fantasy"],
+        "duration": "2h 5min",
+        "rating": "6.3/10"
+    },
+    "the dark knight": {
+        "title": "The Dark Knight",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "videoUrl": "path/to/darkknight.mp4",
+        "category": "dc",
+        "year": "2008",
+        "genres": ["Action", "Crime", "Drama"],
+        "duration": "2h 32min",
+        "rating": "9.0/10"
+    },
+    "man of steel": {
+        "title": "Man of Steel",
+        "description": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when survivors of his home planet invade Earth.",
+        "videoUrl": "path/to/manofsteel.mp4",
+        "category": "dc",
+        "year": "2013",
+        "genres": ["Action", "Sci-Fi"],
+        "duration": "2h 23min",
+        "rating": "7.1/10"
+    },
+    "aquaman": {
+        "title": "Aquaman",
+        "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+        "videoUrl": "path/to/aquaman.mp4",
+        "category": "dc",
+        "year": "2018",
+        "genres": ["Action", "Adventure", "Fantasy"],
+        "duration": "2h 23min",
+        "rating": "6.8/10"
+    },
+    "daaku maharaj": {
+        "title": "Daaku Maharaj",
+        "description": "A rebellious outlaw rises to power in a rural region, challenging the established authority and becoming a folk hero.",
+        "videoUrl": "https://drive.google.com/file/d/1KjY27UN0sjFTVR-cuWTHESQWjugf-2WO/preview",
+        "category": "action",
+        "year": "2023",
+        "genres": ["Action", "Drama", "Crime"],
+        "duration": "2h 35min",
+        "rating": "7.2/10"
+    }
+} 

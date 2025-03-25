@@ -1,0 +1,282 @@
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.shake {
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* Fade In animation for cards and elements */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Spin animation for loading indicators */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Pulse animation for buttons and highlights */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation: pulse 1.5s infinite;
+}
+
+/* Slide in from left animation */
+@keyframes slideInLeft {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s ease-out;
+}
+
+/* Slide in from right animation */
+@keyframes slideInRight {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.slide-in-right {
+    animation: slideInRight 0.5s ease-out;
+}
+
+/* =================== LOGIN/SIGNUP STYLES =================== */
+.login-container {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('../../img/devara.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.login-card {
+    background-color: rgba(24, 24, 24, 0.95);
+    border-radius: 8px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* For signup page which has more fields */
+.signup-page .login-card {
+    max-width: 480px;
+}
+
+.signup-page .login-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('../../img/devara.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-header h2 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.login-header p {
+    color: #a3a3a3;
+    font-size: 0.9rem;
+}
+
+.login-form .form-label {
+    color: #e5e5e5;
+    font-weight: 500;
+}
+
+.login-form .form-control {
+    background-color: #333;
+    border-color: #444;
+    color: #fff;
+    padding: 0.6rem 0.75rem;
+}
+
+.login-form .form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(229, 9, 20, 0.25);
+    border-color: #e50914;
+    background-color: #333;
+}
+
+.login-form .input-group-text {
+    background-color: #444;
+    border-color: #444;
+    color: #a3a3a3;
+}
+
+.login-form .btn-outline-secondary {
+    color: #a3a3a3;
+    border-color: #444;
+    background-color: #444;
+}
+
+.login-form .btn-outline-secondary:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.login-form .form-check-label {
+    color: #a3a3a3;
+}
+
+.login-form .form-check-input:checked {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+.login-form .btn-danger {
+    background-color: #e50914;
+    border-color: #e50914;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.login-form .btn-danger:hover {
+    background-color: #f40612;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(229, 9, 20, 0.3);
+}
+
+.login-footer a, .terms-link {
+    color: #e50914;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-footer a:hover, .terms-link:hover {
+    text-decoration: underline;
+}
+
+.password-strength {
+    margin-top: 5px;
+}
+
+.password-strength .progress {
+    height: 5px;
+    background-color: #333;
+}
+
+.password-strength .form-text {
+    font-size: 0.75rem;
+    color: #a3a3a3 !important;
+    margin-top: 3px;
+}
+
+/* =================== VERIFICATION PAGE STYLES =================== */
+.verification-container {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.logo {
+    margin-bottom: 2rem;
+    width: 120px;
+    height: auto;
+    animation: pulse 2s infinite;
+}
+
+.verification-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.verification-message {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #a3a3a3;
+}
+
+.spinner {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 2rem;
+    border: 5px solid rgba(229, 9, 20, 0.25);
+    border-right-color: #e50914;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.progress-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.progress {
+    height: 6px;
+    background-color: #333;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #e50914;
+    width: 0%;
+    height: 100%;
+    transition: width 4s ease;
+}
+
+#statusMessage {
+    color: #a3a3a3;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* =================== RESPONSIVE ADJUSTMENTS =================== */
+@media (max-width: 576px) {
+    /* Login/Signup responsive */
+    .login-card {
+        padding: 1rem;
+    }
+    
+    .login-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Verification responsive */
+    .verification-container {
+        padding: 1.5rem;
+    }
+    
+    .verification-title {
+        font-size: 1.5rem;
+    }
+    
+    .verification-message {
+        font-size: 0.9rem;
+    }
+} 
